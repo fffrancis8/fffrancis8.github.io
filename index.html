@@ -1,0 +1,1159 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>青娱乐视觉盛宴青青 - 官方视频门户 | 原创高清内容社区</title>
+<meta name="description" content="青娱乐视觉盛宴青青官方网站，专注原创高清视频内容的企业级视频门户，聚合创作者社区、精品专题与视觉盛宴内容生态。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23101a2b'/%3E%3Cpath d='M22 18l24 14-24 14z' fill='%2338e8c8'/%3E%3C/svg%3E">
+<style>
+:root{
+  --qg-bg:#0b1220;
+  --qg-bg2:#111c30;
+  --qg-panel:#14223a;
+  --qg-line:rgba(120,170,220,.16);
+  --qg-txt:#e6eef8;
+  --qg-sub:#9db0c8;
+  --qg-neon:#38e8c8;
+  --qg-neon2:#4d8dff;
+  --qg-warn:#ffcc5c;
+  --qg-radius:16px;
+  --qg-sticky:112px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:var(--qg-sticky)}
+body{
+  margin:0;background:
+    radial-gradient(1200px 600px at 80% -10%,rgba(77,141,255,.18),transparent 60%),
+    radial-gradient(900px 500px at 0% 10%,rgba(56,232,200,.12),transparent 55%),
+    var(--qg-bg);
+  color:var(--qg-txt);
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,"Segoe UI",sans-serif;
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+h1,h2,h3,h4{margin:0;line-height:1.3;font-weight:700}
+p{margin:0}
+ul,ol{margin:0;padding:0;list-style:none}
+button{font-family:inherit;cursor:pointer}
+input{font-family:inherit}
+.qg-wrap{width:min(1180px,92vw);margin:0 auto}
+.qg-section{padding:64px 0}
+.qg-eyebrow{
+  display:inline-flex;align-items:center;gap:8px;font-size:12px;letter-spacing:.18em;
+  color:var(--qg-neon);text-transform:uppercase;font-weight:600;margin-bottom:14px;
+}
+.qg-eyebrow::before{content:"";width:26px;height:2px;background:linear-gradient(90deg,var(--qg-neon),transparent)}
+.qg-h2{font-size:clamp(24px,3.2vw,36px);letter-spacing:-.02em}
+.qg-h2 em{font-style:normal;color:var(--qg-neon)}
+.qg-lead{color:var(--qg-sub);font-size:15px;max-width:62ch;margin-top:12px}
+
+/* ============ 公告条 + 页头 吸顶 ============ */
+.qg-topbar{
+  position:sticky;top:0;z-index:80;
+}
+.qg-announce{
+  background:linear-gradient(90deg,#0e2a3a,#123a52 45%,#0e2a3a);
+  border-bottom:1px solid var(--qg-line);
+  font-size:13px;color:#bfe9e2;
+}
+.qg-announce-inner{
+  display:flex;align-items:center;gap:10px;padding:9px 0;overflow:hidden;
+}
+.qg-announce-tag{
+  flex:none;background:var(--qg-neon);color:#06231f;font-weight:700;
+  padding:1px 8px;border-radius:5px;font-size:11px;letter-spacing:.06em;
+}
+.qg-announce-track{display:flex;gap:34px;white-space:nowrap;overflow-x:auto;scrollbar-width:none}
+.qg-announce-track::-webkit-scrollbar{display:none}
+.qg-announce-track span{position:relative;padding-left:14px}
+.qg-announce-track span::before{content:"◆";position:absolute;left:0;color:var(--qg-neon);font-size:9px;top:5px}
+.qg-header{
+  background:rgba(11,18,32,.86);
+  backdrop-filter:blur(14px);
+  border-bottom:1px solid var(--qg-line);
+}
+.qg-header-inner{display:flex;align-items:center;gap:20px;padding:12px 0}
+.qg-logo{display:flex;align-items:center;gap:10px;flex:none}
+.qg-logo-mark{
+  width:38px;height:38px;border-radius:11px;flex:none;
+  background:linear-gradient(135deg,var(--qg-neon),var(--qg-neon2));
+  display:grid;place-items:center;box-shadow:0 6px 18px rgba(56,232,200,.25);
+}
+.qg-logo-mark svg{width:18px;height:18px}
+.qg-logo-text strong{display:block;font-size:16px;letter-spacing:.02em}
+.qg-logo-text small{display:block;font-size:11px;color:var(--qg-sub);letter-spacing:.1em}
+.qg-nav{display:flex;gap:4px;margin-left:auto;flex-wrap:nowrap}
+.qg-nav a{
+  padding:8px 12px;border-radius:9px;font-size:14px;color:var(--qg-sub);
+  transition:.18s;white-space:nowrap;
+}
+.qg-nav a:hover,.qg-nav a:focus-visible{color:var(--qg-txt);background:rgba(120,170,220,.1)}
+.qg-search{
+  flex:none;display:flex;align-items:center;gap:6px;
+  background:rgba(120,170,220,.09);border:1px solid var(--qg-line);
+  border-radius:11px;padding:6px 6px 6px 12px;
+}
+.qg-search input{
+  background:none;border:0;outline:none;color:var(--qg-txt);width:132px;font-size:13.5px;
+}
+.qg-search input::placeholder{color:#6f87a3}
+.qg-search button{
+  background:linear-gradient(135deg,var(--qg-neon),var(--qg-neon2));
+  border:0;color:#04211d;font-weight:700;font-size:12.5px;border-radius:8px;padding:6px 12px;
+}
+.qg-burger{
+  display:none;background:rgba(120,170,220,.1);border:1px solid var(--qg-line);
+  color:var(--qg-txt);width:42px;height:40px;border-radius:10px;font-size:18px;
+}
+.qg-search-feedback{
+  font-size:12.5px;color:var(--qg-warn);padding:0 0 8px;display:none;
+}
+.qg-search-feedback.on{display:block}
+@media(max-width:980px){
+  .qg-nav{
+    display:none;position:absolute;left:0;right:0;top:100%;
+    flex-direction:column;background:#0d1829;border-bottom:1px solid var(--qg-line);
+    padding:10px 4vw 16px;gap:2px;
+  }
+  .qg-nav.open{display:flex}
+  .qg-burger{display:block;margin-left:auto}
+  .qg-header-inner{position:relative;flex-wrap:wrap}
+  .qg-search{order:3;width:100%}
+  .qg-search input{width:100%}
+}
+
+/* ============ 首屏 ============ */
+.qg-hero{padding:56px 0 20px}
+.qg-hero-grid{
+  display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);
+  gap:44px;align-items:center;
+}
+.qg-hero-badge{
+  display:inline-flex;align-items:center;gap:8px;background:rgba(56,232,200,.1);
+  border:1px solid rgba(56,232,200,.35);color:var(--qg-neon);
+  font-size:12.5px;padding:5px 12px;border-radius:999px;margin-bottom:18px;
+}
+.qg-hero-badge i{width:6px;height:6px;border-radius:50%;background:var(--qg-neon);font-style:normal;animation:qgPulse 1.8s infinite}
+@keyframes qgPulse{0%,100%{opacity:1}50%{opacity:.25}}
+.qg-h1{
+  font-size:clamp(34px,5.4vw,60px);letter-spacing:-.03em;line-height:1.12;
+  background:linear-gradient(120deg,#ffffff,#bfe9e2 55%,var(--qg-neon));
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.qg-hero-tagline{font-size:clamp(15px,1.8vw,18px);color:var(--qg-neon);margin-top:16px;font-weight:600;letter-spacing:.02em}
+.qg-hero-intro{color:var(--qg-sub);font-size:14.6px;margin-top:16px;max-width:56ch}
+.qg-hero-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:26px}
+.qg-stat{
+  background:linear-gradient(160deg,rgba(77,141,255,.13),rgba(56,232,200,.06));
+  border:1px solid var(--qg-line);border-radius:13px;padding:13px 14px;
+}
+.qg-stat b{display:block;font-size:22px;letter-spacing:-.02em;color:#fff}
+.qg-stat span{font-size:12px;color:var(--qg-sub)}
+.qg-hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+.qg-btn{
+  display:inline-flex;align-items:center;gap:8px;border-radius:11px;padding:11px 20px;
+  font-size:14px;font-weight:600;border:1px solid transparent;transition:.18s;
+}
+.qg-btn-primary{background:linear-gradient(135deg,var(--qg-neon),var(--qg-neon2));color:#04211d;box-shadow:0 8px 22px rgba(56,232,200,.22)}
+.qg-btn-primary:hover{transform:translateY(-2px)}
+.qg-btn-ghost{background:rgba(120,170,220,.08);border-color:var(--qg-line);color:var(--qg-txt)}
+.qg-btn-ghost:hover{background:rgba(120,170,220,.16)}
+.qg-hero-visual{
+  position:relative;border-radius:22px;overflow:hidden;
+  border:1px solid var(--qg-line);box-shadow:0 30px 70px -30px rgba(0,0,0,.9);
+}
+.qg-hero-visual img{width:100%;aspect-ratio:16/10;object-fit:cover}
+.qg-hero-float{
+  position:absolute;left:16px;bottom:16px;right:16px;
+  background:rgba(8,15,26,.78);backdrop-filter:blur(10px);
+  border:1px solid var(--qg-line);border-radius:14px;padding:12px 14px;
+}
+.qg-hero-float strong{display:block;font-size:14px}
+.qg-hero-float span{font-size:12px;color:var(--qg-sub)}
+.qg-hero-play{
+  position:absolute;top:14px;right:14px;background:rgba(8,15,26,.7);
+  border:1px solid var(--qg-line);border-radius:999px;font-size:11.5px;
+  padding:4px 11px;color:var(--qg-neon);letter-spacing:.08em;
+}
+@media(max-width:860px){
+  .qg-hero-grid{grid-template-columns:1fr;gap:30px}
+}
+
+/* ============ 关键词解析 / 品牌深度 ============ */
+.qg-about-grid{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:40px;align-items:start}
+.qg-about-art{border-radius:18px;overflow:hidden;border:1px solid var(--qg-line);position:sticky;top:calc(var(--qg-sticky) + 16px)}
+.qg-about-art img{width:100%;aspect-ratio:4/5;object-fit:cover}
+.qg-about-art figcaption{
+  font-size:12px;color:var(--qg-sub);padding:10px 14px;background:rgba(8,15,26,.6);
+}
+.qg-prose p{color:var(--qg-sub);font-size:14.8px;margin-bottom:14px}
+.qg-prose h3{font-size:18px;margin:24px 0 10px;color:#fff;display:flex;align-items:center;gap:9px}
+.qg-prose h3::before{content:"";width:4px;height:17px;border-radius:2px;background:linear-gradient(var(--qg-neon),var(--qg-neon2))}
+.qg-prose strong{color:#d8f6f0}
+@media(max-width:860px){.qg-about-grid{grid-template-columns:1fr}.qg-about-art{position:static}}
+
+/* ============ 焦点内容 ============ */
+.qg-focus-grid{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:26px;margin-top:34px}
+.qg-focus-main{
+  border:1px solid var(--qg-line);border-radius:var(--qg-radius);overflow:hidden;
+  background:var(--qg-panel);transition:.2s;
+}
+.qg-focus-main:hover{transform:translateY(-4px);border-color:rgba(56,232,200,.4)}
+.qg-focus-main img{width:100%;aspect-ratio:16/9;object-fit:cover}
+.qg-card-body{padding:18px 20px 20px}
+.qg-tagrow{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:10px}
+.qg-tag{
+  font-size:11.5px;color:var(--qg-neon);background:rgba(56,232,200,.1);
+  border:1px solid rgba(56,232,200,.24);border-radius:999px;padding:2px 9px;
+}
+.qg-tag.blue{color:#9dc2ff;background:rgba(77,141,255,.12);border-color:rgba(77,141,255,.3)}
+.qg-card-title{font-size:18px;margin-bottom:8px}
+.qg-card-desc{font-size:13.6px;color:var(--qg-sub)}
+.qg-meta{display:flex;flex-wrap:wrap;gap:14px;font-size:12px;color:#7f95b0;margin-top:12px}
+.qg-meta b{color:#cfe0f2;font-weight:600}
+.qg-ops{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap}
+.qg-op{
+  background:rgba(120,170,220,.08);border:1px solid var(--qg-line);color:var(--qg-sub);
+  border-radius:9px;padding:5px 11px;font-size:12.5px;transition:.16s;
+}
+.qg-op:hover{color:var(--qg-txt);background:rgba(120,170,220,.16)}
+.qg-op.active{color:var(--qg-neon);border-color:rgba(56,232,200,.45);background:rgba(56,232,200,.12)}
+.qg-focus-side{display:flex;flex-direction:column;gap:14px}
+.qg-side-item{
+  display:grid;grid-template-columns:96px minmax(0,1fr);gap:14px;
+  border:1px solid var(--qg-line);border-radius:14px;padding:12px;background:rgba(20,34,58,.6);
+  transition:.18s;align-items:center;
+}
+.qg-side-item:hover{background:rgba(20,34,58,.95);border-color:rgba(77,141,255,.35);transform:translateX(3px)}
+.qg-side-item img{width:96px;aspect-ratio:1/1;object-fit:cover;border-radius:10px}
+.qg-side-item h4{font-size:14.5px;margin-bottom:4px}
+.qg-side-item p{font-size:12.5px;color:var(--qg-sub)}
+@media(max-width:800px){.qg-focus-grid{grid-template-columns:1fr}}
+
+/* ============ 视频列表 ============ */
+.qg-vlist{margin-top:30px;display:flex;flex-direction:column;gap:2px}
+.qg-vrow{
+  display:grid;grid-template-columns:44px minmax(0,1fr) auto;gap:16px;align-items:center;
+  padding:16px 12px;border-bottom:1px solid var(--qg-line);transition:.16s;border-radius:10px;
+}
+.qg-vrow:hover{background:rgba(120,170,220,.06)}
+.qg-vnum{font-size:15px;font-weight:700;color:var(--qg-neon);font-variant-numeric:tabular-nums;text-align:center}
+.qg-vrow h4{font-size:15.5px;margin-bottom:5px}
+.qg-vrow .qg-vsub{font-size:12.8px;color:var(--qg-sub)}
+.qg-vdata{font-size:12px;color:#7f95b0;text-align:right;white-space:nowrap}
+.qg-vdata b{display:block;color:#cfe0f2;font-size:13.5px}
+@media(max-width:640px){
+  .qg-vrow{grid-template-columns:30px minmax(0,1fr);}
+  .qg-vdata{grid-column:2;text-align:left;display:flex;gap:14px}
+  .qg-vdata b{display:inline}
+}
+
+/* ============ 专题 ============ */
+.qg-topic-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin-top:32px}
+.qg-topic{
+  background:linear-gradient(170deg,rgba(77,141,255,.1),rgba(20,34,58,.7));
+  border:1px solid var(--qg-line);border-radius:var(--qg-radius);padding:20px;
+  display:flex;flex-direction:column;gap:12px;transition:.2s;
+}
+.qg-topic:hover{transform:translateY(-4px);border-color:rgba(56,232,200,.4)}
+.qg-topic-status{font-size:11.5px;color:var(--qg-warn);letter-spacing:.08em}
+.qg-topic h3{font-size:16.5px}
+.qg-topic p{font-size:13.2px;color:var(--qg-sub)}
+.qg-topic ul{display:flex;flex-direction:column;gap:7px;margin-top:2px}
+.qg-topic li{font-size:12.8px;color:#b7c9dd;padding-left:14px;position:relative}
+.qg-topic li::before{content:"›";position:absolute;left:0;color:var(--qg-neon);font-weight:700}
+@media(max-width:860px){.qg-topic-grid{grid-template-columns:1fr}}
+
+/* ============ 作者矩阵 ============ */
+.qg-author-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;margin-top:32px}
+.qg-author{
+  display:grid;grid-template-columns:64px minmax(0,1fr);gap:16px;
+  border:1px solid var(--qg-line);border-radius:var(--qg-radius);padding:18px;
+  background:rgba(20,34,58,.55);transition:.2s;
+}
+.qg-author:hover{background:rgba(20,34,58,.95);border-color:rgba(56,232,200,.35)}
+.qg-avatar{
+  width:64px;height:64px;border-radius:18px;display:grid;place-items:center;
+  font-weight:800;font-size:22px;color:#04211d;flex:none;
+}
+.qg-av1{background:linear-gradient(135deg,#38e8c8,#4d8dff)}
+.qg-av2{background:linear-gradient(135deg,#ffcc5c,#ff7a59)}
+.qg-av3{background:linear-gradient(135deg,#9d8bff,#4d8dff)}
+.qg-av4{background:linear-gradient(135deg,#5ce1a0,#38e8c8)}
+.qg-author h3{font-size:15.5px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.qg-author h3 small{font-size:11.5px;color:var(--qg-neon);font-weight:500;background:rgba(56,232,200,.1);padding:1px 8px;border-radius:999px}
+.qg-author .qg-afield{font-size:12.5px;color:var(--qg-warn);margin:3px 0 7px}
+.qg-author p{font-size:13px;color:var(--qg-sub)}
+.qg-author .qg-anums{display:flex;gap:16px;font-size:12px;color:#7f95b0;margin-top:10px}
+.qg-anums b{color:#cfe0f2}
+@media(max-width:760px){.qg-author-grid{grid-template-columns:1fr}}
+
+/* ============ 榜单 ============ */
+.qg-rank-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin-top:32px}
+.qg-rank{background:var(--qg-bg2);border:1px solid var(--qg-line);border-radius:var(--qg-radius);padding:18px}
+.qg-rank h3{font-size:15.5px;margin-bottom:12px;padding-bottom:10px;border-bottom:1px solid var(--qg-line);display:flex;justify-content:space-between;align-items:center}
+.qg-rank h3 span{font-size:11px;color:var(--qg-neon);font-weight:500}
+.qg-rank ol{display:flex;flex-direction:column;gap:9px}
+.qg-rank li{display:flex;gap:10px;font-size:13.2px;color:#c2d3e6;align-items:baseline}
+.qg-rank li i{font-style:normal;font-size:11.5px;color:var(--qg-neon);font-weight:700;width:16px;flex:none}
+.qg-rank li small{margin-left:auto;color:#7f95b0;font-size:11.5px;white-space:nowrap}
+@media(max-width:860px){.qg-rank-grid{grid-template-columns:1fr}}
+
+/* ============ 评论 ============ */
+.qg-cmt-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:30px}
+.qg-cmt{
+  background:rgba(20,34,58,.55);border:1px solid var(--qg-line);border-radius:14px;
+  padding:16px 18px;
+}
+.qg-cmt-top{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.qg-cmt-av{width:30px;height:30px;border-radius:9px;display:grid;place-items:center;font-size:12.5px;font-weight:700;color:#04211d}
+.qg-cmt-top b{font-size:13.5px}
+.qg-cmt-top span{font-size:11.5px;color:#7f95b0;margin-left:auto}
+.qg-cmt p{font-size:13.4px;color:var(--qg-sub)}
+.qg-stars{color:var(--qg-warn);font-size:12px;letter-spacing:1px}
+@media(max-width:700px){.qg-cmt-grid{grid-template-columns:1fr}}
+
+/* ============ 动态 + 合作 + FAQ ============ */
+.qg-multi{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:40px}
+.qg-news{display:flex;flex-direction:column;gap:14px;margin-top:24px}
+.qg-news li{
+  border-left:2px solid rgba(56,232,200,.5);padding:2px 0 2px 16px;position:relative;
+}
+.qg-news time{font-size:11.5px;color:var(--qg-neon);letter-spacing:.06em}
+.qg-news h4{font-size:14.5px;margin:3px 0 4px}
+.qg-news p{font-size:13px;color:var(--qg-sub)}
+.qg-partners{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:24px}
+.qg-partner{
+  border:1px solid var(--qg-line);border-radius:12px;padding:14px 16px;
+  background:rgba(20,34,58,.5);font-size:13.5px;font-weight:600;
+  display:flex;align-items:center;gap:10px;transition:.18s;
+}
+.qg-partner:hover{border-color:rgba(77,141,255,.45);background:rgba(20,34,58,.9)}
+.qg-partner i{width:8px;height:8px;border-radius:50%;background:var(--qg-neon2);font-style:normal;flex:none}
+.qg-faq{margin-top:30px;display:flex;flex-direction:column;gap:10px;max-width:900px}
+.qg-faq details{
+  border:1px solid var(--qg-line);border-radius:12px;background:rgba(20,34,58,.5);
+  padding:0 18px;transition:.18s;
+}
+.qg-faq details[open]{background:rgba(20,34,58,.95);border-color:rgba(56,232,200,.35)}
+.qg-faq summary{
+  cursor:pointer;padding:15px 0;font-size:14.5px;font-weight:600;list-style:none;
+  display:flex;justify-content:space-between;gap:12px;align-items:center;
+}
+.qg-faq summary::-webkit-details-marker{display:none}
+.qg-faq summary::after{content:"+";color:var(--qg-neon);font-size:18px;font-weight:400;line-height:1}
+.qg-faq details[open] summary::after{content:"–"}
+.qg-faq p{font-size:13.4px;color:var(--qg-sub);padding:0 0 16px}
+@media(max-width:820px){.qg-multi{grid-template-columns:1fr;gap:34px}}
+
+/* ============ 投稿 CTA ============ */
+.qg-cta{
+  margin:70px 0;border-radius:22px;padding:44px 38px;
+  background:
+    radial-gradient(600px 260px at 15% 0%,rgba(56,232,200,.2),transparent 65%),
+    radial-gradient(600px 300px at 90% 100%,rgba(77,141,255,.22),transparent 65%),
+    #0e1a2c;
+  border:1px solid var(--qg-line);
+  display:flex;gap:30px;align-items:center;justify-content:space-between;flex-wrap:wrap;
+}
+.qg-cta h2{font-size:clamp(22px,3vw,30px)}
+.qg-cta p{color:var(--qg-sub);font-size:14px;margin-top:10px;max-width:52ch}
+
+/* ============ 页脚 ============ */
+.qg-footer{
+  border-top:1px solid var(--qg-line);background:#080f1b;padding:52px 0 30px;margin-top:20px;
+}
+.qg-footer-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:32px}
+.qg-footer h4{font-size:13.5px;margin-bottom:14px;letter-spacing:.06em;color:#fff}
+.qg-footer li{font-size:13px;color:var(--qg-sub);margin-bottom:9px}
+.qg-footer a:hover{color:var(--qg-neon)}
+.qg-footer-brand p{font-size:13px;color:var(--qg-sub);margin-top:14px;max-width:34ch}
+.qg-footer-bottom{
+  margin-top:36px;padding-top:20px;border-top:1px solid var(--qg-line);
+  display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
+  font-size:12.5px;color:#6f87a3;
+}
+@media(max-width:820px){.qg-footer-grid{grid-template-columns:1fr 1fr}}
+
+/* ============ 回到顶部 & Toast & 弹窗 ============ */
+.qg-totop{
+  position:fixed;right:22px;bottom:26px;width:46px;height:46px;border-radius:14px;
+  background:linear-gradient(135deg,var(--qg-neon),var(--qg-neon2));border:0;color:#04211d;
+  font-size:19px;font-weight:800;display:none;place-items:center;z-index:70;
+  box-shadow:0 10px 26px rgba(56,232,200,.3);
+}
+.qg-totop.on{display:grid}
+.qg-toast{
+  position:fixed;left:50%;bottom:34px;transform:translate(-50%,20px);
+  background:#0f2a3d;border:1px solid rgba(56,232,200,.4);color:#d8f6f0;
+  padding:11px 20px;border-radius:11px;font-size:13.5px;z-index:120;
+  opacity:0;pointer-events:none;transition:.25s;
+}
+.qg-toast.on{opacity:1;transform:translate(-50%,0)}
+.qg-modal{
+  position:fixed;inset:0;z-index:110;display:none;place-items:center;padding:20px;
+  background:rgba(4,9,17,.78);backdrop-filter:blur(6px);
+}
+.qg-modal.on{display:grid}
+.qg-modal-box{
+  width:min(520px,94vw);background:#101c2f;border:1px solid var(--qg-line);
+  border-radius:18px;padding:26px;max-height:86vh;overflow:auto;
+}
+.qg-modal-box h3{font-size:19px;margin-bottom:10px}
+.qg-modal-box p{font-size:13.6px;color:var(--qg-sub);margin-bottom:14px}
+.qg-modal-box label{display:block;font-size:12.5px;color:var(--qg-neon);margin:12px 0 5px}
+.qg-modal-box input,.qg-modal-box textarea{
+  width:100%;background:rgba(120,170,220,.08);border:1px solid var(--qg-line);
+  border-radius:10px;padding:10px 12px;color:var(--qg-txt);font-size:13.5px;outline:none;
+}
+.qg-modal-box textarea{min-height:90px;resize:vertical}
+.qg-modal-row{display:flex;gap:10px;margin-top:18px;flex-wrap:wrap}
+.qg-share-list{display:flex;gap:10px;flex-wrap:wrap;margin-top:8px}
+.qg-share-list button{
+  background:rgba(120,170,220,.1);border:1px solid var(--qg-line);color:var(--qg-txt);
+  border-radius:10px;padding:9px 16px;font-size:13px;
+}
+.qg-share-list button:hover{border-color:rgba(56,232,200,.5);color:var(--qg-neon)}
+.qg-sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<div class="qg-topbar">
+  <div class="qg-announce">
+    <div class="qg-wrap qg-announce-inner">
+      <span class="qg-announce-tag">官方发布</span>
+      <div class="qg-announce-track">
+        <span>《视觉盛宴 · 城市光影》第四季 11 月 25 日 20:00 全网首播</span>
+        <span>创作者扶持计划 2026 冬季批次开放报名，名额 120 位</span>
+        <span>高清 4K 正版片库新增 386 部原创短片，支持离线下载</span>
+        <span>「青娱乐视觉盛宴青青」年度口碑榜投票通道已开启</span>
+      </div>
+    </div>
+  </div>
+  <header class="qg-header">
+    <div class="qg-wrap qg-header-inner">
+      <a class="qg-logo" href="#qg-top" aria-label="青娱乐视觉盛宴青青官方网站首页">
+        <span class="qg-logo-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M7 4l13 8-13 8z" fill="#04211d"/></svg>
+        </span>
+        <span class="qg-logo-text">
+          <strong>青娱乐视觉盛宴青青</strong>
+          <small>VISUAL FEAST · OFFICIAL</small>
+        </span>
+      </a>
+      <nav class="qg-nav" id="qg-nav" aria-label="主导航">
+        <a href="#qg-focus">焦点内容</a>
+        <a href="#qg-topics">专题企划</a>
+        <a href="#qg-authors">创作者</a>
+        <a href="#qg-rank">口碑榜</a>
+        <a href="#qg-about">品牌深度</a>
+        <a href="#qg-faq">帮助中心</a>
+      </nav>
+      <form class="qg-search" id="qg-search" role="search" onsubmit="return false;">
+        <label class="qg-sr-only" for="qg-search-input">搜索站内内容</label>
+        <input id="qg-search-input" type="search" placeholder="搜索作品 / 创作者" autocomplete="off">
+        <button type="submit" id="qg-search-btn">搜索</button>
+      </form>
+      <button class="qg-burger" id="qg-burger" aria-expanded="false" aria-controls="qg-nav" aria-label="展开导航菜单">☰</button>
+    </div>
+    <div class="qg-wrap"><div class="qg-search-feedback" id="qg-search-feedback"></div></div>
+  </header>
+</div>
+
+<main id="qg-top">
+
+  <!-- 首屏 -->
+  <section class="qg-hero" aria-labelledby="qg-h1-title">
+    <div class="qg-wrap qg-hero-grid">
+      <div>
+        <span class="qg-hero-badge"><i></i>官方视频门户 · 持续运营中</span>
+        <h1 class="qg-h1" id="qg-h1-title">青娱乐视觉盛宴青青</h1>
+        <p class="qg-hero-tagline">把每一帧光影，都做成值得反复观看的视觉盛宴</p>
+        <p class="qg-hero-intro">
+          作为深耕原创影像领域的视频品牌，青娱乐视觉盛宴青青官方网站以高清正版内容为核心，连接创作者、观众与合作伙伴，构建兼具品质与活力的内容生态。我们相信，好的影像不只是被观看，更会被记住。
+        </p>
+        <div class="qg-hero-stats">
+          <div class="qg-stat"><b>4,200+</b><span>原创高清作品</span></div>
+          <div class="qg-stat"><b>860万</b><span>社区创作者与观众</span></div>
+          <div class="qg-stat"><b>98.6%</b><span>用户口碑好评率</span></div>
+        </div>
+        <div class="qg-hero-actions">
+          <a class="qg-btn qg-btn-primary" href="#qg-focus">观看焦点内容</a>
+          <a class="qg-btn qg-btn-ghost" href="#qg-authors">认识创作者</a>
+          <button class="qg-btn qg-btn-ghost" data-qg-open="submit" type="button">提交我的作品</button>
+        </div>
+      </div>
+      <figure class="qg-hero-visual">
+        <span class="qg-hero-play">正在热映 · 4K 高清</span>
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3Cdefs%3E%3ClinearGradient id='sky' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%230b2340'/%3E%3Cstop offset='.55' stop-color='%2312384f'/%3E%3Cstop offset='1' stop-color='%23071a26'/%3E%3C/linearGradient%3E%3ClinearGradient id='beam' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%2338e8c8' stop-opacity='.95'/%3E%3Cstop offset='1' stop-color='%234d8dff' stop-opacity='.1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='500' fill='url(%23sky)'/%3E%3Ccircle cx='610' cy='110' r='56' fill='%2338e8c8' opacity='.22'/%3E%3Ccircle cx='610' cy='110' r='30' fill='%23bffcf0' opacity='.45'/%3E%3Cpath d='M0 360 L120 300 L210 330 L330 250 L440 300 L560 215 L680 275 L800 200 L800 500 L0 500Z' fill='%2310223a'/%3E%3Cpath d='M0 410 L110 370 L230 398 L350 340 L470 385 L600 330 L720 372 L800 340 L800 500 L0 500Z' fill='%230d1a2c'/%3E%3Cpath d='M240 500 L360 120 L520 500Z' fill='url(%23beam)' opacity='.35'/%3E%3Cg stroke='%2338e8c8' stroke-width='1.4' opacity='.55'%3E%3Cpath d='M60 130 L180 190'/%3E%3Cpath d='M120 90 L215 160'/%3E%3Cpath d='M700 380 L760 300'/%3E%3C/g%3E%3Cg fill='%23cfe0f2' opacity='.7'%3E%3Crect x='300' y='70' width='3' height='16'/%3E%3Crect x='330' y='95' width='3' height='10'/%3E%3Crect x='270' y='40' width='2' height='12'/%3E%3C/g%3E%3Crect x='60' y='440' width='180' height='4' rx='2' fill='%2338e8c8' opacity='.7'/%3E%3C/svg%3E" alt="青娱乐视觉盛宴青青官方主视觉：青蓝城市天际线与光束交织的影像画面" width="800" height="500">
+        <figcaption class="qg-hero-float">
+          <strong>《城市光影》第四季 · 青蓝之夜</strong>
+          <span>原创企划 / 8K 母版调色 / 每周四更新</span>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- 关键词解析 / 品牌深度 -->
+  <section class="qg-section" id="qg-about" aria-labelledby="qg-about-title">
+    <div class="qg-wrap">
+      <span class="qg-eyebrow">Brand Insight</span>
+      <h2 class="qg-h2" id="qg-about-title">青娱乐视觉盛宴青青 <em>品牌深度解析</em></h2>
+      <p class="qg-lead">从名字到内容，从技术到社区，我们把这个品牌拆开来看，你会发现它并不是一句口号，而是一套可以持续运转的影像系统。</p>
+      <div class="qg-about-grid" style="margin-top:34px">
+        <figure class="qg-about-art">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 800'%3E%3Cdefs%3E%3ClinearGradient id='bg2' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23101e33'/%3E%3Cstop offset='1' stop-color='%2308121f'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='800' fill='url(%23bg2)'/%3E%3Cg stroke='%234d8dff' stroke-width='1' opacity='.28'%3E%3Cpath d='M0 200h640M0 400h640M0 600h640M160 0v800M320 0v800M480 0v800'/%3E%3C/g%3E%3Crect x='80' y='120' width='480' height='270' rx='14' fill='%23142339' stroke='%2338e8c8' stroke-width='2'/%3E%3Ccircle cx='160' cy='200' r='34' fill='%2338e8c8' opacity='.85'/%3E%3Cpath d='M148 184l34 16-34 16z' fill='%23081f1c'/%3E%3Crect x='216' y='182' width='280' height='12' rx='6' fill='%2334577a'/%3E%3Crect x='216' y='210' width='190' height='10' rx='5' fill='%232a4460'/%3E%3Crect x='120' y='300' width='400' height='10' rx='5' fill='%232a4460'/%3E%3Crect x='120' y='326' width='260' height='10' rx='5' fill='%232a4460'/%3E%3Crect x='80' y='450' width='220' height='140' rx='12' fill='%23142339' stroke='%234d8dff' stroke-width='2'/%3E%3Crect x='320' y='450' width='240' height='140' rx='12' fill='%23142339' stroke='%23ffcc5c' stroke-width='2'/%3E%3Cg fill='%2338e8c8' opacity='.75'%3E%3Crect x='104' y='540' width='24' height='30'/%3E%3Crect x='140' y='510' width='24' height='60'/%3E%3Crect x='176' y='524' width='24' height='46'/%3E%3Crect x='212' y='488' width='24' height='82'/%3E%3C/g%3E%3Cg fill='%23ffcc5c' opacity='.7'%3E%3Crect x='348' y='500' width='56' height='14' rx='7'/%3E%3Crect x='348' y='528' width='150' height='10' rx='5'/%3E%3Crect x='348' y='550' width='110' height='10' rx='5'/%3E%3C/g%3E%3Crect x='80' y='640' width='480' height='2' fill='%2338e8c8' opacity='.5'/%3E%3Cg fill='%23cfe0f2' opacity='.5'%3E%3Ccircle cx='120' cy='700' r='8'/%3E%3Ccircle cx='200' cy='700' r='8'/%3E%3Ccircle cx='280' cy='700' r='8'/%3E%3Ccircle cx='360' cy='700' r='8'/%3E%3C/g%3E%3C/svg%3E" alt="青娱乐视觉盛宴青青品牌工作台界面示意：内容矩阵与数据看板" width="640" height="800" loading="lazy">
+          <figcaption>品牌编辑工作台：从选题、拍摄到调色与上线，一条影像的完整链路。</figcaption>
+        </figure>
+        <div class="qg-prose">
+          <h3>名字里的三个关键词：青、盛宴、青青</h3>
+          <p>「青」是这个品牌最底层的色彩基因。它既指青春，也指一种尚未被调色过度修饰的原始影像质感。我们在内容评审会上有一个共识：任何一支上线作品，都要能经得起把饱和度关掉的检验。去掉滤镜之后仍然成立的画面，才配得上「青娱乐视觉盛宴青青」这个名字。因此平台的视觉规范里，青绿不是装饰色，而是叙事线索——它出现在片头、出现在章节转场，也出现在创作者的个人主页里。</p>
+          <p>「视觉盛宴」则是一个承诺。它不是指画面绚丽，而是指信息密度与观看节奏的匹配。我们内部把作品分成四档节奏：慢叙、呼吸、推进、高能。一支作品如果全程高能，观众十分钟就会疲劳；如果全程慢叙，又撑不起首页推荐位。真正让观众觉得「吃得饱」的，是节奏的编排。所以青娱乐视觉盛宴青青官方网站的编辑团队，会把每一支入选作品的时间轴标出来，把「呼吸点」写进推荐语里。</p>
+          <h3>为什么强调「青青」这两个字</h3>
+          <p>「青青」在中文里有双重意味：一是草木初生，二是绵绵不断。这两层意思恰好对应一家视频企业最难的两件事——持续生产新内容，以及让老内容依然有生命力。我们上线了一个叫「长青计划」的机制：每季度从过去三年内的高分作品中，重新做一版高清修复与重新剪辑，配上新的创作者访谈，再发布一次。数据证明，修复版的老作品平均能带来新作 1.7 倍的完播率。这不是怀旧生意，而是内容资产的再运营。</p>
+          <p>另外，「青青」也指向我们最看重的社区属性。视频行业普遍焦虑于「一次性观看」，用户看完就走。但青娱乐视觉盛宴青青的评论区不是摆设，它是内容的第二现场。我们在每条视频下方都保留了「延伸讨论」入口，鼓励观众提供拍摄地点、配乐来源、镜头拆解等硬信息。这些内容会被整理进「视觉盛宴百科」，反哺下一位创作者。一个品牌能不能长青，取决于它是否让用户从消费者变成共建者。</p>
+          <h3>技术底座与正版内容生态</h3>
+          <p>在技术层面，青娱乐视觉盛宴青青官方网站自建了内容分发与转码体系，支持从 720P 到 8K 母版的多档清晰度自适应切换，并提供离线下载与倍速审片功能。我们与多家版权音乐库、航拍素材库建立了长期合作，为创作者提供正版授权通道，避免优质内容因为版权问题无法上线。这也是我们反复强调「正版、高清、原创」的原因：品质不是靠压缩率堆出来的，而是靠每一个环节的规范。</p>
+          <p>在推荐机制上，平台设有「人工编辑 + 数据反馈」双层结构。算法负责发现长尾，编辑负责守住品质底线。我们不追逐单条爆款，而是关注创作者是否在持续成长。目前平台已与 600 余位签约创作者建立稳定合作，覆盖城市探索、人物访谈、手作记录、影像教程、治愈系日常等三十多个垂直方向。可以说，青娱乐视觉盛宴青青这个品牌，是靠一支支具体作品、一条条真实评论慢慢长出来的，而非靠一次营销事件。</p>
+          <h3>面向未来的内容方向</h3>
+          <p>接下来一年，我们会把重心放在三个方向：第一，城市影像志的系列化，让地域文化通过镜头被系统记录；第二，创作者工坊，把调色、收音、分镜等技能拆成可学习的模块；第三，社区共创企划，每个季度发起一次主题征集，优秀作品进入官方首页。我们希望青娱乐视觉盛宴青青不只是一个观看网站，而是一个能让人愿意反复回来的影像社区。这也是企业使命里那句「让真实的光影被更多人看见」的实际落点。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 焦点内容 -->
+  <section class="qg-section" id="qg-focus" aria-labelledby="qg-focus-title">
+    <div class="qg-wrap">
+      <span class="qg-eyebrow">Featured Now</span>
+      <h2 class="qg-h2" id="qg-focus-title">青娱乐视觉盛宴青青 <em>本周焦点</em></h2>
+      <p class="qg-lead">编辑团队从近 200 支新上线的原创作品中选出本期焦点，兼顾画面质感、叙事完整度与社区讨论热度。</p>
+
+      <div class="qg-focus-grid">
+        <article class="qg-focus-main">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 900 506'%3E%3Cdefs%3E%3ClinearGradient id='dusk' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23243a63'/%3E%3Cstop offset='.45' stop-color='%234a3f6b'/%3E%3Cstop offset='1' stop-color='%23e0876a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='900' height='506' fill='url(%23dusk)'/%3E%3Ccircle cx='700' cy='180' r='70' fill='%23ffd9a8' opacity='.75'/%3E%3Cg fill='%23142033'%3E%3Crect x='0' y='300' width='120' height='206'/%3E%3Crect x='130' y='262' width='90' height='244'/%3E%3Crect x='230' y='320' width='110' height='186'/%3E%3Crect x='350' y='240' width='80' height='266'/%3E%3Crect x='440' y='300' width='130' height='206'/%3E%3Crect x='580' y='270' width='100' height='236'/%3E%3Crect x='690' y='330' width='120' height='176'/%3E%3Crect x='820' y='290' width='80' height='216'/%3E%3C/g%3E%3Cg fill='%23ffcc5c' opacity='.85'%3E%3Crect x='146' y='290' width='12' height='16'/%3E%3Crect x='172' y='290' width='12' height='16'/%3E%3Crect x='146' y='326' width='12' height='16'/%3E%3Crect x='366' y='270' width='12' height='16'/%3E%3Crect x='466' y='330' width='12' height='16'/%3E%3Crect x='500' y='330' width='12' height='16'/%3E%3Crect x='604' y='300' width='12' height='16'/%3E%3Crect x='640' y='300' width='12' height='16'/%3E%3Crect x='710' y='360' width='12' height='16'/%3E%3C/g%3E%3Cpath d='M0 440 Q220 400 450 440 T900 430 L900 506 L0 506Z' fill='%230d1826'/%3E%3Ccircle cx='180' cy='120' r='3' fill='%23fff' opacity='.8'/%3E%3Ccircle cx='260' cy='90' r='2' fill='%23fff' opacity='.6'/%3E%3Ccircle cx='420' cy='140' r='2.5' fill='%23fff' opacity='.7'/%3E%3C/svg%3E" alt="《城市光影》第四季日落时分的城市天际线远景" width="900" height="506" loading="lazy">
+          <div class="qg-card-body">
+            <div class="qg-tagrow">
+              <span class="qg-tag">城市探索</span>
+              <span class="qg-tag blue">8K 母版</span>
+              <span class="qg-tag">官方企划</span>
+            </div>
+            <h3 class="qg-card-title">《城市光影》第四季第一集：日落前的十七分钟</h3>
+            <p class="qg-card-desc">摄制组用十七分钟的单镜头，记录下一座城市从黄昏转入夜色的完整过场。没有旁白，只有环境声与楼宇间流动的风。导演在映后访谈里说，这十七分钟里他们只调整了两次曝光，把「不干预」当成一种拍摄方法。</p>
+            <div class="qg-meta">
+              <span>作者 <b>@光年外</b></span>
+              <span>播放 <b class="qg-num">128,430</b></span>
+              <span>点赞 <b class="qg-like-count">9,812</b></span>
+              <span>收藏 <b>4,206</b></span>
+            </div>
+            <div class="qg-ops">
+              <button class="qg-op" type="button" data-qg-like>♡ 点赞</button>
+              <button class="qg-op" type="button" data-qg-fav>☆ 收藏</button>
+              <button class="qg-op" type="button" data-qg-open="share">↗ 分享</button>
+              <button class="qg-op" type="button" data-qg-open="report">⚑ 反馈</button>
+            </div>
+          </div>
+        </article>
+
+        <div class="qg-focus-side">
+          <article class="qg-side-item">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect width='200' height='200' fill='%23122b33'/%3E%3Ccircle cx='100' cy='84' r='40' fill='%2338e8c8' opacity='.55'/%3E%3Crect x='60' y='132' width='80' height='44' rx='14' fill='%2338e8c8' opacity='.35'/%3E%3Cpath d='M86 76l30 16-30 16z' fill='%23081f1c'/%3E%3C/svg%3E" alt="创作者访谈现场收音与补光设备特写" width="200" height="200" loading="lazy">
+            <div>
+              <h4>创作者访谈：一支片子的声音是怎么被救回来的</h4>
+              <p>从现场杂音到干净人声，混音师的四步处理流程全记录。</p>
+            </div>
+          </article>
+          <article class="qg-side-item">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect width='200' height='200' fill='%23241a33'/%3E%3Cg stroke='%239d8bff' stroke-width='3' fill='none' opacity='.8'%3E%3Crect x='40' y='50' width='120' height='80' rx='8'/%3E%3Cpath d='M40 50l60 46 60-46'/%3E%3C/g%3E%3Crect x='40' y='148' width='80' height='8' rx='4' fill='%239d8bff' opacity='.5'/%3E%3C/svg%3E" alt="投稿箱与创作工坊计划视觉符号" width="200" height="200" loading="lazy">
+            <div>
+              <h4>冬季创作工坊开放报名：从选题到成片的七天</h4>
+              <p>限额 120 人，导师一对一讲评，结课作品直通首页推荐。</p>
+            </div>
+          </article>
+          <article class="qg-side-item">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect width='200' height='200' fill='%23182b22'/%3E%3Cg fill='%235ce1a0' opacity='.7'%3E%3Ccircle cx='70' cy='80' r='26'/%3E%3Ccircle cx='128' cy='108' r='34'/%3E%3C/g%3E%3Cpath d='M20 168h160' stroke='%2338e8c8' stroke-width='3' opacity='.6'/%3E%3C/svg%3E" alt="社区共创征集活动的自然意象图形" width="200" height="200" loading="lazy">
+            <div>
+              <h4>社区共创：用一百支短片拼出四季的颜色</h4>
+              <p>征集通道已开启，入选片段将组成年度合辑《青青如许》。</p>
+            </div>
+          </article>
+          <article class="qg-side-item">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect width='200' height='200' fill='%23331f1a'/%3E%3Cg stroke='%23ffcc5c' stroke-width='2.5' fill='none'%3E%3Cpath d='M40 150l30-60 30 30 30-50 30 80'/%3E%3C/g%3E%3Ccircle cx='150' cy='52' r='10' fill='%23ffcc5c' opacity='.8'/%3E%3C/svg%3E" alt="热度趋势与数据曲线示意图" width="200" height="200" loading="lazy">
+            <div>
+              <h4>数据观察：为什么慢节奏内容的完播率反而更高</h4>
+              <p>编辑部分享近三个月 300 支作品的观看行为样本。</p>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <h3 style="margin-top:46px;font-size:18px;color:#fff">更多在播视频</h3>
+      <ul class="qg-vlist">
+        <li class="qg-vrow">
+          <span class="qg-vnum">01</span>
+          <div>
+            <h4>手作人的工作台：木料、刻刀与一整天的安静</h4>
+            <p class="qg-vsub">一支没有背景音乐的手作记录，把声音交给刻刀与木头。</p>
+          </div>
+          <div class="qg-vdata"><b>86,204</b>播放 · 6,110 赞</div>
+        </li>
+        <li class="qg-vrow">
+          <span class="qg-vnum">02</span>
+          <div>
+            <h4>调色入门：让画面肤色不再发绿的三个步骤</h4>
+            <p class="qg-vsub">从示波器读数到节点顺序，适合刚接触调色的创作者。</p>
+          </div>
+          <div class="qg-vdata"><b>73,590</b>播放 · 5,428 赞</div>
+        </li>
+        <li class="qg-vrow">
+          <span class="qg-vnum">03</span>
+          <div>
+            <h4>凌晨四点的菜市场，和两位搬了二十年货的摊主</h4>
+            <p class="qg-vsub">城市探索系列新作，记录清晨供应链的起点。</p>
+          </div>
+          <div class="qg-vdata"><b>64,118</b>播放 · 4,903 赞</div>
+        </li>
+        <li class="qg-vrow">
+          <span class="qg-vnum">04</span>
+          <div>
+            <h4>一间老书店的最后一晚：书架的影子比书更动人</h4>
+            <p class="qg-vsub">27 分钟纪录片，摄影机几乎没有离开过那条走廊。</p>
+          </div>
+          <div class="qg-vdata"><b>52,867</b>播放 · 4,102 赞</div>
+        </li>
+        <li class="qg-vrow">
+          <span class="qg-vnum">05</span>
+          <div>
+            <h4>把一段 12 秒的镜头剪出五种情绪：节奏实验</h4>
+            <p class="qg-vsub">同一个素材，五种剪辑思路，附带时间轴拆解文件。</p>
+          </div>
+          <div class="qg-vdata"><b>49,330</b>播放 · 3,874 赞</div>
+        </li>
+        <li class="qg-vrow">
+          <span class="qg-vnum">06</span>
+          <div>
+            <h4>雨天收音攻略：如何在街头拍出干净的环境声</h4>
+            <p class="qg-vsub">防风毛套、指向麦与后期降噪的完整组合方案。</p>
+          </div>
+          <div class="qg-vdata"><b>41,776</b>播放 · 3,290 赞</div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 专题企划 -->
+  <section class="qg-section" id="qg-topics" aria-labelledby="qg-topics-title">
+    <div class="qg-wrap">
+      <span class="qg-eyebrow">Special Projects</span>
+      <h2 class="qg-h2" id="qg-topics-title">专题企划：<em>让影像成为长期工程</em></h2>
+      <p class="qg-lead">青娱乐视觉盛宴青青的专题不是一季热度，而是持续更新的内容工程。每个专题都有明确的编辑方向与更新节奏。</p>
+      <div class="qg-topic-grid">
+        <article class="qg-topic">
+          <span class="qg-topic-status">● 更新中 · 每周四</span>
+          <h3>城市光影志</h3>
+          <p>以城市为单元，记录光线、声音与人的日常轨迹，已覆盖十二座城市。</p>
+          <ul>
+            <li>《日落前的十七分钟》单镜头记录</li>
+            <li>《老站台的最后一班车》轨道摄影</li>
+            <li>《天台上的晚风》手持跟拍实验</li>
+          </ul>
+        </article>
+        <article class="qg-topic">
+          <span class="qg-topic-status">● 更新中 · 每双周</span>
+          <h3>创作者工坊</h3>
+          <p>把影像技能拆成可练习的小模块，从分镜到调色形成完整学习路径。</p>
+          <ul>
+            <li>调色基础课：肤色校正三步法</li>
+            <li>现场收音课：雨天与风口的处理</li>
+            <li>分镜课：一支 30 秒片子的镜头数</li>
+          </ul>
+        </article>
+        <article class="qg-topic">
+          <span class="qg-topic-status">● 征集期 · 至 12 月 20 日</span>
+          <h3>青青如许 · 社区共创</h3>
+          <p>面向全体观众与创作者征集一分钟短片，优秀片段进入年度合辑。</p>
+          <ul>
+            <li>主题：我身边的一束光</li>
+            <li>赛道：纪实 / 实验 / 动画 三选一</li>
+            <li>奖励：官方首页推荐与创作基金</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 作者矩阵 -->
+  <section class="qg-section" id="qg-authors" aria-labelledby="qg-authors-title">
+    <div class="qg-wrap">
+      <span class="qg-eyebrow">Creators</span>
+      <h2 class="qg-h2" id="qg-authors-title">平台创作者：<em>真实、专业、持续生长</em></h2>
+      <p class="qg-lead">青娱乐视觉盛宴青青的内容生态由签约创作者与投稿用户共同构成。以下为近期活跃的作者名录，点击卡片可查看简介。</p>
+      <div class="qg-author-grid">
+        <article class="qg-author">
+          <span class="qg-avatar qg-av1" aria-hidden="true">光</span>
+          <div>
+            <h3>光年外 <small>签约作者</small></h3>
+            <p class="qg-afield">擅长领域：城市探索 / 航拍</p>
+            <p>从业七年的城市影像记录者，习惯在同一个路口连续拍摄一个月，只为等到一场合适的光。作品《日落前的十七分钟》被多家影像媒体转载，他常说镜头不该抢走现场的风。</p>
+            <div class="qg-anums"><span>作品 <b>86</b></span><span>粉丝 <b>42.6万</b></span></div>
+            <div class="qg-ops"><button class="qg-op" type="button" data-qg-open="author" data-qg-name="光年外" data-qg-info="从业七年的城市影像记录者，擅长航拍与长镜头叙事。">查看简介</button></div>
+          </div>
+        </article>
+        <article class="qg-author">
+          <span class="qg-avatar qg-av2" aria-hidden="true">木</span>
+          <div>
+            <h3>木头与刀 <small>签约作者</small></h3>
+            <p class="qg-afield">擅长领域：手作记录 / 慢生活</p>
+            <p>木作工作室主理人，把工作台搬进镜头已经四年。他坚持不用背景音乐，认为刻刀的声音本身就有节奏。系列作品《一整天的安静》累计播放超过两百万次。</p>
+            <div class="qg-anums"><span>作品 <b>54</b></span><span>粉丝 <b>28.1万</b></span></div>
+            <div class="qg-ops"><button class="qg-op" type="button" data-qg-open="author" data-qg-name="木头与刀" data-qg-info="木作工作室主理人，专注无声手作记录与慢节奏影像。">查看简介</button></div>
+          </div>
+        </article>
+        <article class="qg-author">
+          <span class="qg-avatar qg-av3" aria-hidden="true">调</span>
+          <div>
+            <h3>调色师小满 <small>官方创作者</small></h3>
+            <p class="qg-afield">擅长领域：教程干货 / 调色技术</p>
+            <p>后期出身的影像技术作者，擅长把复杂的调色流程讲成能落地的步骤。她的教程视频平均收藏率是平台均值的两倍，很多观众把她的片子当工作手册反复观看。</p>
+            <div class="qg-anums"><span>作品 <b>112</b></span><span>粉丝 <b>36.4万</b></span></div>
+            <div class="qg-ops"><button class="qg-op" type="button" data-qg-open="author" data-qg-name="调色师小满" data-qg-info="后期出身的影像技术作者，专注调色与剪辑教程。">查看简介</button></div>
+          </div>
+        </article>
+        <article class="qg-author">
+          <span class="qg-avatar qg-av4" aria-hidden="true">野</span>
+          <div>
+            <h3>野外收音机 <small>签约作者</small></h3>
+            <p class="qg-afield">擅长领域：户外活动 / 声音记录</p>
+            <p>常年在山野与公路之间移动的声音采集者，作品以环境声与自然光为主。他的《雨天收音攻略》被不少独立剧组当作入门参考，评论区里常有人交换设备清单。</p>
+            <div class="qg-anums"><span>作品 <b>67</b></span><span>粉丝 <b>19.8万</b></span></div>
+            <div class="qg-ops"><button class="qg-op" type="button" data-qg-open="author" data-qg-name="野外收音机" data-qg-info="环境声采集者，专注户外声音记录与收音技术分享。">查看简介</button></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 口碑榜 + 评论 -->
+  <section class="qg-section" id="qg-rank" aria-labelledby="qg-rank-title">
+    <div class="qg-wrap">
+      <span class="qg-eyebrow">Charts & Reviews</span>
+      <h2 class="qg-h2" id="qg-rank-title">口碑榜单与<em>真实用户评价</em></h2>
+      <p class="qg-lead">榜单由播放完成度、收藏率与社区讨论质量综合计算，不含付费推广位。</p>
+
+      <div class="qg-rank-grid">
+        <div class="qg-rank">
+          <h3>热度榜 <span>本周</span></h3>
+          <ol>
+            <li><i>01</i>城市光影：日落前的十七分钟<small>128,430</small></li>
+            <li><i>02</i>手作人的工作台<small>86,204</small></li>
+            <li><i>03</i>调色入门三步法<small>73,590</small></li>
+            <li><i>04</i>凌晨四点的菜市场<small>64,118</small></li>
+            <li><i>05</i>老书店的最后一晚<small>52,867</small></li>
+          </ol>
+        </div>
+        <div class="qg-rank">
+          <h3>新人榜 <span>近 30 天</span></h3>
+          <ol>
+            <li><i>01</i>阿岩的胶片日记<small>首作 4.2万</small></li>
+            <li><i>02</i>巷口的声音<small>首作 3.8万</small></li>
+            <li><i>03</i>小城放映员<small>首作 3.1万</small></li>
+            <li><i>04</i>凌晨便利店<small>首作 2.7万</small></li>
+            <li><i>05</i>山雾记录组<small>首作 2.4万</small></li>
+          </ol>
+        </div>
+        <div class="qg-rank">
+          <h3>口碑榜 <span>综合评分</span></h3>
+          <ol>
+            <li><i>01</i>老书店的最后一晚<small>9.6 分</small></li>
+            <li><i>02</i>城市光影：日落<small>9.4 分</small></li>
+            <li><i>03</i>一整天的安静<small>9.3 分</small></li>
+            <li><i>04</i>把镜头交给风<small>9.1 分</small></li>
+            <li><i>05</i>天台上的晚风<small>8.9 分</small></li>
+          </ol>
+        </div>
+      </div>
+
+      <h3 style="margin-top:46px;font-size:18px;color:#fff">社区短评摘录</h3>
+      <div class="qg-cmt-grid">
+        <article class="qg-cmt">
+          <div class="qg-cmt-top">
+            <span class="qg-cmt-av qg-av1" aria-hidden="true">林</span>
+            <b>林间有风</b><span class="qg-stars">★★★★★</span>
+          </div>
+          <p>《日落前的十七分钟》我来回看了三遍。第一次看画面，第二次听环境声，第三次才注意到镜头里有个人一直在阳台收衣服。这种细节比任何旁白都有力量。</p>
+        </article>
+        <article class="qg-cmt">
+          <div class="qg-cmt-top">
+            <span class="qg-cmt-av qg-av3" aria-hidden="true">陈</span>
+            <b>陈拾一</b><span class="qg-stars">★★★★★</span>
+          </div>
+          <p>作为刚学调色的新人，小满的教程让我少走了很多弯路。她把节点顺序讲清楚了，还附了工程文件，这种诚意在同类平台里不多见。</p>
+        </article>
+        <article class="qg-cmt">
+          <div class="qg-cmt-top">
+            <span class="qg-cmt-av qg-av2" aria-hidden="true">周</span>
+            <b>周三下午</b><span class="qg-stars">★★★★☆</span>
+          </div>
+          <p>整体体验很好，就是希望移动端的剧集列表能记住我上次看到哪一集。收藏夹功能不错，已经存了二十多条待看。</p>
+        </article>
+        <article class="qg-cmt">
+          <div class="qg-cmt-top">
+            <span class="qg-cmt-av qg-av4" aria-hidden="true">阿</span>
+            <b>阿岩的胶片日记</b><span class="qg-stars">★★★★★</span>
+          </div>
+          <p>作为刚签约的新人，最直接的感受是编辑真的会看你的片子并给具体意见，不是模板回复。这对创作者来说很重要，会继续投。</p>
+        </article>
+        <article class="qg-cmt">
+          <div class="qg-cmt-top">
+            <span class="qg-cmt-av qg-av1" aria-hidden="true">海</span>
+            <b>海边旧船票</b><span class="qg-stars">★★★★☆</span>
+          </div>
+          <p>手作那条视频我给孩子放了两次，他第一次安静看完一支二十分钟的片子。没有配乐反而更专注，这点很意外也很喜欢。</p>
+        </article>
+        <article class="qg-cmt">
+          <div class="qg-cmt-top">
+            <span class="qg-cmt-av qg-av3" aria-hidden="true">K</span>
+            <b>Kevin_Liu</b><span class="qg-stars">★★★★★</span>
+          </div>
+          <p>离线下载和倍速审片这两个功能对上班族太友好了，地铁上也能把访谈看完。清晰度切换也很顺畅，没有卡顿。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 动态 + 合作 -->
+  <section class="qg-section" aria-labelledby="qg-news-title">
+    <div class="qg-wrap qg-multi">
+      <div>
+        <span class="qg-eyebrow">Updates</span>
+        <h2 class="qg-h2" id="qg-news-title">企业动态与<em>官方发布</em></h2>
+        <ul class="qg-news">
+          <li>
+            <time>2026-11-20</time>
+            <h4>「长青计划」第二期上线，修复 46 部早期原创作品</h4>
+            <p>本次修复覆盖 2019 至 2022 年的口碑作品，重新调整了分辨率与音轨，并补录创作者访谈。</p>
+          </li>
+          <li>
+            <time>2026-11-15</time>
+            <h4>版权素材库扩容，新增 1,200 条正版配乐与音效</h4>
+            <p>签约创作者可在后台上直接下载授权素材，用于站内作品，无需额外付费。</p>
+          </li>
+          <li>
+            <time>2026-11-08</time>
+            <h4>冬季创作工坊报名开启，导师名单已公布</h4>
+            <p>共 120 个名额，覆盖分镜、收音、调色与发行四个方向，结课作品可进入首页推荐池。</p>
+          </li>
+          <li>
+            <time>2026-10-30</time>
+            <h4>社区共创《青青如许》征集通道开启</h4>
+            <p>面向全体用户征集一分钟短片，主题为「我身边的一束光」，截稿日期为 12 月 20 日。</p>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <span class="qg-eyebrow">Partners</span>
+        <h2 class="qg-h2">合作品牌与<em>伙伴生态</em></h2>
+        <div class="qg-partners">
+          <div class="qg-partner"><i></i>城市影像档案馆</div>
+          <div class="qg-partner"><i></i>澄光摄影器材</div>
+          <div class="qg-partner"><i></i>长风音频实验室</div>
+          <div class="qg-partner"><i></i>青禾艺术空间</div>
+          <div class="qg-partner"><i></i>叠影出版社</div>
+          <div class="qg-partner"><i></i>白昼电影工作室</div>
+        </div>
+        <p style="margin-top:20px;font-size:13.4px;color:var(--qg-sub)">我们与器材、音频、出版与艺术机构保持长期合作，为创作者提供从设备支持到线下展映的完整链路。合作咨询可通过页脚联系方式提交。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="qg-section" id="qg-faq" aria-labelledby="qg-faq-title" style="padding-top:0">
+    <div class="qg-wrap">
+      <span class="qg-eyebrow">Help Center</span>
+      <h2 class="qg-h2" id="qg-faq-title">帮助中心：<em>常见问题</em></h2>
+      <div class="qg-faq">
+        <details>
+          <summary>青娱乐视觉盛宴青青是什么类型的平台？</summary>
+          <p>这是一家以原创高清视频为核心的影像内容门户，兼具品牌官方发布、创作者社区与精品专题企划三重属性，内容覆盖城市探索、手作记录、影像教程、人物访谈等方向。</p>
+        </details>
+        <details>
+          <summary>如何成为平台签约创作者？</summary>
+          <p>在「投稿」入口提交三到五支代表作，编辑团队会在七个工作日内给出反馈。通过初审后会进入一个月的观察期，期间作品正常上线、数据正常统计。</p>
+        </details>
+        <details>
+          <summary>站内作品是否都是正版授权？</summary>
+          <p>站内上线的作品均经过版权核验，使用的配乐与音效来自官方合作素材库。若发现疑似侵权内容，可通过反馈入口提交举证，我们会优先处理。</p>
+        </details>
+        <details>
+          <summary>支持哪些清晰度与观看方式？</summary>
+          <p>支持从 720P 到 8K 母版的多档清晰度自适应，并提供离线下载、倍速审片与逐帧查看功能，适合普通观众与专业创作者两类使用场景。</p>
+        </details>
+        <details>
+          <summary>如何参与社区共创征集？</summary>
+          <p>在专题页找到《青青如许》征集入口，提交一分钟以内的原创短片即可。题材需为纪实、实验或动画，截止日期为 12 月 20 日，入选者将获得创作基金与首页推荐。</p>
+        </details>
+        <details>
+          <summary>评论区的延伸讨论是什么？</summary>
+          <p>每条视频下方的延伸讨论区鼓励观众补充拍摄地点、配乐来源、镜头拆解等信息，优质内容会被整理进视觉盛宴百科，供其他创作者参考。</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- 投稿 CTA -->
+  <section class="qg-wrap" aria-labelledby="qg-cta-title">
+    <div class="qg-cta">
+      <div>
+        <h2 id="qg-cta-title">你的一支片子，也许就是下一场视觉盛宴</h2>
+        <p>青娱乐视觉盛宴青青长期开放投稿通道。无论你是第一次拿稳相机，还是已经拍了十年，我们都愿意认真看完你的作品，并给出具体的反馈。</p>
+      </div>
+      <div class="qg-hero-actions" style="margin-top:0">
+        <button class="qg-btn qg-btn-primary" type="button" data-qg-open="submit">立即投稿</button>
+        <button class="qg-btn qg-btn-ghost" type="button" data-qg-open="share">分享给朋友</button>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="qg-footer">
+  <div class="qg-wrap">
+    <div class="qg-footer-grid">
+      <div class="qg-footer-brand">
+        <a class="qg-logo" href="#qg-top" aria-label="返回青娱乐视觉盛宴青青首页">
+          <span class="qg-logo-mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M7 4l13 8-13 8z" fill="#04211d"/></svg>
+          </span>
+          <span class="qg-logo-text"><strong>青娱乐视觉盛宴青青</strong><small>VISUAL FEAST · OFFICIAL</small></span>
+        </a>
+        <p>青娱乐视觉盛宴青青官方网站，专注原创高清影像的内容品牌。我们与创作者共同运营，持续提供值得反复观看的精品内容。</p>
+      </div>
+      <div>
+        <h4>内容</h4>
+        <ul>
+          <li><a href="#qg-focus">焦点内容</a></li>
+          <li><a href="#qg-topics">专题企划</a></li>
+          <li><a href="#qg-rank">口碑榜单</a></li>
+          <li><a href="#qg-about">品牌深度</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>社区</h4>
+        <ul>
+          <li><a href="#qg-authors">创作者名录</a></li>
+          <li><a href="#qg-faq">投稿帮助</a></li>
+          <li><a href="#qg-faq">常见问题</a></li>
+          <li><a href="#qg-rank">社区短评</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>联系</h4>
+        <ul>
+          <li>合作：partner@example.com</li>
+          <li>投稿：submit@example.com</li>
+          <li>工作日 10:00 – 19:00</li>
+          <li><button class="qg-op" type="button" data-qg-open="report" style="margin-top:2px">意见反馈</button></li>
+        </ul>
+      </div>
+    </div>
+    <div class="qg-footer-bottom">
+      <span>© 2026 青娱乐视觉盛宴青青 官方网站 · 版权所有 · 持续运营中</span>
+      <span>备案号：示例备案 00000000 号 · 正版高清 · 原创内容社区</span>
+    </div>
+  </div>
+</footer>
+
+<button class="qg-totop" id="qg-totop" type="button" aria-label="回到页面顶部">↑</button>
+<div class="qg-toast" id="qg-toast" role="status" aria-live="polite"></div>
+
+<div class="qg-modal" id="qg-modal" role="dialog" aria-modal="true" aria-labelledby="qg-modal-title">
+  <div class="qg-modal-box">
+    <h3 id="qg-modal-title">提示</h3>
+    <div id="qg-modal-content"></div>
+    <div class="qg-modal-row">
+      <button class="qg-btn qg-btn-primary" type="button" id="qg-modal-ok">知道了</button>
+      <button class="qg-btn qg-btn-ghost" type="button" id="qg-modal-cancel">关闭</button>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  var toastEl = document.getElementById('qg-toast');
+  var toastTimer = null;
+  function toast(msg){
+    toastEl.textContent = msg;
+    toastEl.classList.add('on');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toastEl.classList.remove('on'); }, 2200);
+  }
+
+  /* 移动端导航折叠 */
+  var burger = document.getElementById('qg-burger');
+  var nav = document.getElementById('qg-nav');
+  burger.addEventListener('click', function(){
+    var open = nav.classList.toggle('open');
+    burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+    burger.textContent = open ? '✕' : '☰';
+  });
+  nav.addEventListener('click', function(e){
+    if(e.target.tagName === 'A' && window.innerWidth <= 980){
+      nav.classList.remove('open');
+      burger.setAttribute('aria-expanded','false');
+      burger.textContent = '☰';
+    }
+  });
+
+  /* 搜索前端反馈 */
+  var searchForm = document.getElementById('qg-search');
+  var searchInput = document.getElementById('qg-search-input');
+  var feedback = document.getElementById('qg-search-feedback');
+  var keywords = ['城市光影','手作','调色','收音','访谈','菜市场','老书店','专题','创作者','榜单'];
+  function doSearch(){
+    var q = searchInput.value.trim();
+    if(!q){
+      feedback.textContent = '请输入关键词，例如「城市光影」「调色」或「手作」。';
+      feedback.classList.add('on');
+      return;
+    }
+    var hit = keywords.some(function(k){ return k.indexOf(q) >= 0 || q.indexOf(k) >= 0; });
+    feedback.textContent = hit
+      ? '已找到与「' + q + '」相关的内容，可在焦点内容与专题区查看。'
+      : '暂未匹配到「' + q + '」，已为你推荐焦点内容，也可换个关键词试试。';
+    feedback.classList.add('on');
+    toast(hit ? '搜索到相关内容' : '已展示推荐内容');
+  }
+  searchForm.addEventListener('submit', function(e){ e.preventDefault(); doSearch(); });
+  document.getElementById('qg-search-btn').addEventListener('click', function(e){ e.preventDefault(); doSearch(); });
+
+  /* 点赞 / 收藏 */
+  document.querySelectorAll('[data-qg-like]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var on = btn.classList.toggle('active');
+      btn.textContent = on ? '♥ 已点赞' : '♡ 点赞';
+      var counter = document.querySelector('.qg-like-count');
+      if(counter){
+        var val = parseInt(counter.textContent.replace(/[^0-9]/g,''),10) || 0;
+        counter.textContent = (on ? val + 1 : Math.max(val - 1, 0)).toLocaleString('en-US');
+      }
+      toast(on ? '点赞成功，感谢支持' : '已取消点赞');
+    });
+  });
+  document.querySelectorAll('[data-qg-fav]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var on = btn.classList.toggle('active');
+      btn.textContent = on ? '★ 已收藏' : '☆ 收藏';
+      toast(on ? '已加入收藏夹' : '已从收藏夹移除');
+    });
+  });
+
+  /* 弹窗 */
+  var modal = document.getElementById('qg-modal');
+  var modalTitle = document.getElementById('qg-modal-title');
+  var modalContent = document.getElementById('qg-modal-content');
+  var modalOk = document.getElementById('qg-modal-ok');
+  var modalCancel = document.getElementById('qg-modal-cancel');
+
+  function openModal(title, html, okText){
+    modalTitle.textContent = title;
+    modalContent.innerHTML = html;
+    modalOk.textContent = okText || '知道了';
+    modal.classList.add('on');
+    modalOk.focus();
+  }
+  function closeModal(){ modal.classList.remove('on'); }
+
+  modalOk.addEventListener('click', function(){
+    if(modalOk.dataset.action === 'submit'){
+      var name = document.getElementById('qg-f-name');
+      if(name && !name.value.trim()){
+        toast('请先填写作品名称');
+        return;
+      }
+      toast('投稿已提交，编辑将在七个工作日内反馈');
+    } else if(modalOk.dataset.action === 'report'){
+      toast('反馈已收到，我们会尽快核实');
+    } else if(modalOk.dataset.action === 'copy'){
+      copyLink();
+    }
+    delete modalOk.dataset.action;
+    closeModal();
+  });
+  modalCancel.addEventListener('click', closeModal);
+  modal.addEventListener('click', function(e){ if(e.target === modal) closeModal(); });
+  document.addEventListener('keydown', function(e){ if(e.key === 'Escape') closeModal(); });
+
+  function copyLink(){
+    var text = '青娱乐视觉盛宴青青 · 原创高清视觉盛宴内容社区';
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(function(){ toast('品牌信息已复制'); }, function(){ toast('复制失败，请手动复制'); });
+    } else {
+      toast('当前环境不支持自动复制');
+    }
+  }
+
+  document.addEventListener('click', function(e){
+    var opener = e.target.closest('[data-qg-open]');
+    if(!opener) return;
+    var type = opener.getAttribute('data-qg-open');
+    if(type === 'share'){
+      openModal('分享这场视觉盛宴',
+        '<p>把青娱乐视觉盛宴青青分享给更多喜欢影像的朋友。</p>' +
+        '<div class="qg-share-list">' +
+          '<button type="button" data-qg-share="wechat">微信</button>' +
+          '<button type="button" data-qg-share="weibo">微博</button>' +
+          '<button type="button" data-qg-share="qq">QQ</button>' +
+          '<button type="button" data-qg-share="copy">复制链接</button>' +
+        '</div>', '关闭');
+      modalOk.dataset.action = '';
+    } else if(type === 'submit'){
+      openModal('投稿入口',
+        '<p>提交你的原创作品，编辑团队会认真观看并给出反馈。</p>' +
+        '<label for="qg-f-name">作品名称</label>' +
+        '<input id="qg-f-name" type="text" placeholder="例如：日落前的十七分钟">' +
+        '<label for="qg-f-desc">作品简介</label>' +
+        '<textarea id="qg-f-desc" placeholder="简单说明拍摄地点、时长与创作思路"></textarea>', '提交作品');
+      modalOk.dataset.action = 'submit';
+    } else if(type === 'report'){
+      openModal('意见反馈',
+        '<p>如果发现内容问题或有功能建议，欢迎告诉我们。</p>' +
+        '<label for="qg-f-report">反馈内容</label>' +
+        '<textarea id="qg-f-report" placeholder="请描述你遇到的问题或建议"></textarea>', '提交反馈');
+      modalOk.dataset.action = 'report';
+    } else if(type === 'author'){
+      var nm = opener.getAttribute('data-qg-name') || '创作者';
+      var info = opener.getAttribute('data-qg-info') || '';
+      openModal(nm, '<p>' + info + '</p><p>该创作者持续在青娱乐视觉盛宴青青发布原创高清作品，欢迎关注其主页并参与评论区讨论。</p>', '关注创作者');
+      modalOk.dataset.action = '';
+    }
+  });
+
+  document.addEventListener('click', function(e){
+    var b = e.target.closest('[data-qg-share]');
+    if(!b) return;
+    var t = b.getAttribute('data-qg-share');
+    if(t === 'copy'){ copyLink(); }
+    else { toast('已生成分享入口，可通过对应平台发送'); }
+    closeModal();
+  });
+
+  /* 回到顶部 */
+  var toTop = document.getElementById('qg-totop');
+  window.addEventListener('scroll', function(){
+    if(window.scrollY > 640) toTop.classList.add('on');
+    else toTop.classList.remove('on');
+  }, {passive:true});
+  toTop.addEventListener('click', function(){
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+})();
+</script>
+</body>
+  </html>
